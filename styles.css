@@ -1,5 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 
+:root{
+    --primary-color: #00B0FF; 
+}
+
 body {
     font-family: 'STIX Two Math', serif;
+}
+
+
+
+
+
+
+/*conatiner*/
+.container{
+    padding: 0rem 1rem;
+}
+
+/*conatainer-fluid*/
+.container-fluid{
+   
+}
+
+/*center-conatiner*/
+.conatiner-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/*@links*/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/*primary-link*/
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: .5rem;
+    color: white;
+}
+
+/*secondary-link*/
+.link-secondary{
+    border-radius: .5rem;
+    border: 1px solid var(--primary-color);
+    color: black;
+    
 }
