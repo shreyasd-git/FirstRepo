@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #00B0FF; 
+    --header-color: #0F172A;
 }
 
 body {
@@ -71,8 +72,42 @@ hr {
 .navigation{
     background-color: var(--primary-color);
     color: white;
+    padding: 0.5rem;
 }
 
 .navigation .link{
     color: white;
+}
+
+.nav-brand{
+    margin: 0rem 0.5rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.navigation .nav-align{
+    text-align: center;
+}
+
+.navigation .link-active{
+    font-weight: bolder;
+}
+
+
+/* hero*/
+.hero .hero-img{
+    margin: auto;
+    max-width: 350px;
+    display: block;
+}
+
+.hero .hero-heading{
+    color: var(--header-color);
+    text-align: center;
+    padding: 1.5rem;
+    
+}
+
+.hero .hero-heading .heading-highlight{
+    color: var(--primary-color);
 }
