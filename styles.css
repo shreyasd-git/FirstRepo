@@ -3,6 +3,7 @@
 :root{
     --primary-color: #00B0FF; 
     --header-color: #0F172A;
+    --off-white: #E2E8F0;
 }
 
 body {
@@ -111,3 +112,19 @@ hr {
 .hero .hero-heading .heading-highlight{
     color: var(--primary-color);
 }
+
+
+/*conatiner*/
+.section{
+    padding: 1rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+
