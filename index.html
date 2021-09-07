@@ -2,135 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Lib LevelZero</title>
-
+    <title>Home | starkweb</title>
     <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Shreyas' component library</h1>
-    <p>Live from neogcamp, building a portfolio for all my work, projects and learnings to showcase all under one roof for others to read. </p>
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest header</h1>
-    <h2>This is second biggest</h2>
-    <p>This is text written under paragraph tag and is free flowing </p>
-    <small>This is relatively smaller text, using the small tag.</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>@fluid container</h3>
-    <div class="container container-fluid">free flowing and uses full page' width and height</div>
-
-    <h3>@center container</h3>
-    <div class="conatainer conatiner-center">this will go on till provided width and will be alligned in the center</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="\">Primary link</a>
-    <a class="link link-secondary" href="\">Secondary link</a>
-
-    <hr>
     
-    <h2>@lists</h2>
-
-    <h3>unordered lists</h3>
-
-    <ul class="list-non-bullet">
-        <li>unordered Java</li>
-        <li>unordered AWS</li>
-        <li>unordered Python</li>
-    </ul>
-
-    <h3>inline unordered lists</h3>
-
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Java</li>
-        <li class="list-item-inline">Inline AWS</li>
-        <li class="list-item-inline">Inline Python</li> 
-    </ul>
-
-    <h3>reverse ordered lists</h3>
-
-    <ol reversed>
-        <li>reverse ordered Java</li>
-        <li>reverse ordered AWS</li>
-        <li>reverse ordered Python</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav bar</h2>
-
     <nav class="navigation conatiner">
-        <div class="nav-brand">iAmBrand</div>
+        <div class="nav-brand">Stark@WebDev</div>
         <ul class="list-non-bullet nav-align">
             <li class="list-item-inline">
                 <a class="link link-active" href="\">Home</a>
             </li>
 
             <li class="list-item-inline">
-                <a class="link" href="\">Projects</a>
+                <a class="link" href="projects.html">Projects</a>
             </li>
 
             <li class="list-item-inline">
-                <a class="link" href="\">About</a>
+                <a class="link" href="blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
-
-    <hr>
-
-    <h2>@header</h2>
-
+    
     <header class="hero">
-        <img class="hero-img" src="images\hero.svg" />
+        <img class="hero-img" src="/images\hero.svg" />
         <h1 class="hero-heading">Stark the <span class="heading-highlight">Web Developer</span></h2>
     </header>
 
-    <hr>
-
-    <h2>@section</h2>
+    <section class="section ow">
+        <div class="conatainer conatiner-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with Html5, JavaSript, CoreJava, Java Spring MVC, Python, Amazon Web Services, NoSqlDB and Ansible</p>
+        </div>       
+    </section>
 
     <section class="section">
         <div class="conatainer conatiner-center">
-            <h1>white section</h1>
-            <p>This will have white bg</p>
-
+            <h1>Projects</h1>
+            <p>This will have my projects to showcase</p>
+            <a class="link link-primary" href="\">Browse Projects</a>
         </div>
-        
     </section>
 
     <section class="section ow">
         <div class="conatainer conatiner-center">
-            <h1>off-white section</h1>
-            <p>This will have off-white/grey bg</p>
+            <h1>Blogs</h1>
+            <p>I have some blogs on some AWS Services, Cheatsheest for AWS certification, Java Basics </p>
+            <a class="link link-secondary" href="\">Read Blogs</a>
         </div>       
     </section>
 
-    <hr>
-
-    <h2>@footer</h2>
-
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
+    <footer class="footer">
+        <div class="footer-header">Connect with me </div>
+        <ul class="list-non-bullet ">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/shreyasd-git">
+                    GitHub
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/login">
+                    LinkedIn
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/login">
+                    Twitter
+                </a>
+            </li>
         </ul>
     </footer>
 
 
-
     <div style="height: 20vh;"></div>
-
 </body>
 </html>
