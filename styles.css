@@ -16,7 +16,10 @@ hr {
     margin: 2rem 0rem;
 }
 
-
+/*list item*/
+li {
+    margin: 4rem 0;
+}
 
 
 /*conatiner*/
